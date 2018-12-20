@@ -35,7 +35,7 @@ int IN8 = 8;
 int opFront, opRight, opLeft, d;
 
 RF24 radio(9, 10);
-#include <functions.h>
+#include <functions/functions.h>
 
 void setup()
 {
